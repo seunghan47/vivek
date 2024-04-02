@@ -1,0 +1,28 @@
+.sports_container {
+  background-color: white;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 30px;
+  display: flex;
+  padding: 5rem 5rem;
+}
+
+.sports_container_items {
+  background-color: #f7f7f7;
+  padding: 30px;
+}
+
+ion-icon {
+  font-size: 64px;
+}
+
+.button {
+  background-color: #0171c5;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}

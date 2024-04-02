@@ -1,0 +1,16 @@
+.different {
+  background-color: #0171c5;
+  color: white;
+  padding: 5rem 5rem;
+}
+
+.different h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.text_container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}

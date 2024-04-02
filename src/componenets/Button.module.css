@@ -1,0 +1,14 @@
+.book_button {
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  background-color: #c55501;
+  text-transform: uppercase;
+  padding: 1rem 1rem;
+  font-size: 20px;
+  color: white;
+  outline: none;
+}
+
+.book_button:hover {
+  background-color: #ff6b00;
+  transform: scale(1.05);
+}

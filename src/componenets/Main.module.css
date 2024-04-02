@@ -1,0 +1,29 @@
+main {
+  position: relative;
+}
+
+main img {
+  clip-path: inset(30% 0 0 0);
+  filter: brightness(0.25);
+  margin-top: -17%;
+  max-width: 100%;
+  height: auto;
+}
+
+.hero_text {
+  position: absolute;
+  padding-left: 50px;
+  top: 0;
+  color: white;
+}
+
+.hero_text h1 {
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+button {
+  margin-top: 30px;
+  border: none;
+  width: 300px;
+}
