@@ -14,3 +14,9 @@
   justify-content: center;
   gap: 30px;
 }
+
+@media screen and (max-width: 768px) {
+  .text_container {
+    flex-wrap: wrap;
+  }
+}

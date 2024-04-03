@@ -3,11 +3,12 @@
   padding: 6rem 3rem;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
 .about_container img {
-  width: 40%;
+  width: 50%;
   height: auto;
 }
 
