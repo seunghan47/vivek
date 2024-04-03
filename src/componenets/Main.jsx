@@ -7,7 +7,7 @@ const Main = () => {
     <main>
       <img
         src='hero.jpg'
-        alt=''
+        alt='volleyball'
       />
       <section className={styles.hero_text}>
         <h1>Elevate Your Game with a Multisport Champion</h1>

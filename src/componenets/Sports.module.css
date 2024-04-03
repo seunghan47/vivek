@@ -8,6 +8,7 @@
 }
 
 .sports_container_items {
+  flex-grow: 1;
   background-color: #f7f7f7;
   padding: 30px;
 }

@@ -19,7 +19,11 @@ main img {
 
 .hero_text h1 {
   text-transform: uppercase;
-  font-size: 70px;
+  font-size: 4em;
+}
+
+.hero_text p {
+  font-size: 1em;
 }
 
 button {
