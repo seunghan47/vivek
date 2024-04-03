@@ -7,33 +7,39 @@ const Contact = () => {
     <div className={styles.contact}>
       <h1>Contact Me Today!</h1>
       <Form>
-        <label htmlFor='name'></label>
-        <input
-          type='text'
-          name=''
-          id=''
-        />
-
-        <label htmlFor='email'></label>
-        <input
-          type='text'
-          name=''
-          id=''
-        />
-
-        <label htmlFor='subject'></label>
-        <input
-          type='text'
-          name=''
-          id=''
-        />
-
-        <label htmlFor='message'></label>
-        <textarea
-          type=''
-          name=''
-          id=''
-        />
+        <div>
+          <label htmlFor='name'>Name</label>
+          <input
+            type='text'
+            name=''
+            id=''
+          />
+        </div>
+        <div>
+          <label htmlFor='email'>Email</label>
+          <input
+            type='text'
+            name=''
+            id=''
+          />
+        </div>
+        <div>
+          <label htmlFor='subject'>Subject: </label>
+          <input
+            type='text'
+            name=''
+            id=''
+          />
+        </div>
+        <div>
+          <label htmlFor='message'>Messages (Optional): </label>
+          <textarea
+            type=''
+            name=''
+            id=''
+          />
+        </div>
+        <button className={styles.button}>Submit !</button>
       </Form>
     </div>
   );
