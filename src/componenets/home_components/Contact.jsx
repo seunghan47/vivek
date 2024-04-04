@@ -39,7 +39,7 @@ const Contact = () => {
             id=''
           />
         </div>
-        <button className={styles.button}>Submit !</button>
+        <button className={styles.button}>Submit</button>
       </Form>
     </div>
   );
