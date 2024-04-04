@@ -2,7 +2,7 @@
   display: flex;
   padding: 1rem 2rem 2rem 2rem;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header img {
@@ -46,4 +46,38 @@
   background-color: #1677c1;
   transform: scale(1.05);
   cursor: pointer;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 4em;
+  height: 0.5em;
+  background-color: black;
+  margin: 5px 0;
+}
+
+@media (max-width: 880px) {
+  .nav_container {
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    width: 100%;
+    padding: 3rem 1rem;
+    position: absolute;
+    top: 139.5px;
+    z-index: 1;
+    right: 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+  .close {
+    display: none;
+  }
 }

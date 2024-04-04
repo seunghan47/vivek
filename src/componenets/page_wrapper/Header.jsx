@@ -1,8 +1,13 @@
 import React from "react";
 import styles from "./Header.module.css";
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const Header = () => {
+  const [showNav, setShowNav] = useState(false);
+  const toggleNav = () => {
+    setShowNav((prev) => !prev);
+  };
   return (
     <header className={styles.header}>
       <div className={styles.image_container}>
@@ -14,7 +19,7 @@ const Header = () => {
           />
         </NavLink>
       </div>
-      <nav className={styles.nav_container}>
+      <nav className={`${styles.nav_container} ${showNav ? undefined : styles.close}`}>
         <NavLink
           to='about'
           className={({ isActive }) => (isActive ? styles.isActive : undefined)}
@@ -37,6 +42,14 @@ const Header = () => {
           <span className={styles.book_button}>Put Me In Coach</span>
         </NavLink>
       </nav>
+      <div
+        className={styles.hamburger}
+        onClick={toggleNav}
+      >
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
+        <div className={styles.bar}></div>
+      </div>
     </header>
   );
 };
