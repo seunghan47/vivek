@@ -4,12 +4,11 @@
   text-transform: uppercase;
   border-radius: 10px;
   border: none;
-  padding: 1rem 1rem;
-  font-size: 3vb;
+  font-size: 1.5vw;
   color: white;
   outline: none;
-  width: 15em;
-  height: 3rem;
+  width: 20vw;
+  height: 3vw;
 }
 
 .book_button:hover {
