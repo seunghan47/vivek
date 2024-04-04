@@ -7,23 +7,23 @@ const Contact = () => {
     <div className={styles.contact}>
       <h1>Contact Me Today!</h1>
       <Form>
-        <div>
-          <label htmlFor='name'>Name</label>
+        <div className={styles.contact_items}>
+          <label htmlFor='name'>Your Name</label>
           <input
             type='text'
             name=''
             id=''
           />
         </div>
-        <div>
-          <label htmlFor='email'>Email</label>
+        <div className={styles.contact_items}>
+          <label htmlFor='email'>Your Email</label>
           <input
             type='text'
             name=''
             id=''
           />
         </div>
-        <div>
+        <div className={styles.contact_items}>
           <label htmlFor='subject'>Subject: </label>
           <input
             type='text'
@@ -31,8 +31,8 @@ const Contact = () => {
             id=''
           />
         </div>
-        <div>
-          <label htmlFor='message'>Messages (Optional): </label>
+        <div className={styles.contact_items}>
+          <label htmlFor='message'>Your Messages (Optional): </label>
           <textarea
             type=''
             name=''
