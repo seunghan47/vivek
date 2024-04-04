@@ -1,10 +1,10 @@
 .footer {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  align-items: center;
   background-color: black;
   color: white;
-  padding: 1rem 10rem;
+  padding: 2rem 0rem;
 }
 
 .footer a {
